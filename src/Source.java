@@ -7,7 +7,7 @@ public class Source {
 
 	public static void main(String[] args) throws IOException {
 		
-		Path path = Paths.get("C:\\Users\\Joey\\Desktop\\test.txt");
+		Path path = Paths.get("test.txt");
 		Charset characters = StandardCharsets.ISO_8859_1;
 		List<String> names = Files.readAllLines(path, characters);
 		
